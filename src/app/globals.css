@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Force black text color for all input, textarea, and form elements */
+input,
+textarea,
+[contenteditable="true"] {
+  color: black !important;
+}
